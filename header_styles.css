@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #F1F2F6;
+    
+}
+
+/* LAYOUT ============================================== */
+
+.main-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    height: 100dvh;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-flex {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+footer {
+    width: 90%;
+    align-self: center;
+    text-align: center;
+    border-top: 1px solid grey;
+    
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+
+/* COSMETIC STYLES ================================ */
+
+
+.homepage_logo {
+    font-size: 	1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+::placeholder {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #5f5d5d;  
+}
+
+.link_footer {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.search_input {
+    border-style: none;
+    padding: 0.9em;
+    width: 475px;
+    border-radius: 5px;
+}
