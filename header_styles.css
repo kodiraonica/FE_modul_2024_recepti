@@ -67,6 +67,10 @@ footer {
     color: black;
 }
 
+.material-symbols-outlined {
+    color: black;
+}
+
 ::placeholder {
     font-size: 1rem;
     font-weight: 500;
@@ -82,6 +86,7 @@ footer {
 .search_input {
     border-style: none;
     padding: 0.9em;
+    height: 2.5rem;
     width: 475px;
     border-radius: 5px;
 }
