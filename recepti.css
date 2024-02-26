@@ -21,7 +21,6 @@ body {
 }
 
 main{
-    background-color: var(--bgcolor);
     flex-grow: 1;
 }
 
@@ -37,23 +36,17 @@ main{
     padding-bottom: 50px;
     width: 70%;
     display: grid;
-    box-sizing: border-box;
     grid-template-columns: repeat(auto-fill, minmax(300px, 25%)); 
     justify-content: center;
-    justify-items: center;
-    align-items: center;
     gap: 20px 20px;
 }
 
 .recipe{
-    box-sizing: border-box;
     width: 100%;
     height: 400px;
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
-    flex-wrap: wrap;
-    justify-content: left;
     background-color: var(--white);
     text-align: left;
     border-radius: 5px;
@@ -61,25 +54,21 @@ main{
     box-shadow: 0 0 10px var(--boxshadow); 
 }
 
-h2{
-    width: 295px;
+.headingStyle{
+    width: 300px;
     height: 10px;
     margin-top: 5px;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
     background-color: var(--white);
     font-size: 20px;
 }
 
-p{
+.overflow_ellipsis{
     background-color: var(--white);
     font-size: 16px;
     margin-top: 10px;
-}
-
-.overflow_ellipsis{
-    margin-top: 10px;
     height: 60px;
-    width: 290px;
+    width: 300px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -97,11 +86,7 @@ p{
 .tags{
     background-color: var(--white);
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: flex-end;
     align-items: flex-end;
-    flex-wrap: nowrap;
 }
 
 button{
@@ -117,19 +102,14 @@ button{
 }
 
 .footerWrapping{
-    background-color: var(--bgcolor);
     padding-bottom: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
-h3{
+.footStyle{
     display: flex;
-    flex-direction: row;
     font-weight: 500;
-    width: 250px;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
@@ -137,15 +117,11 @@ h3{
 }
 
 footer{  
-    width: 100%;
     margin-top: auto;
-    background-color: var(--bgcolor);
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    align-content: center;
     flex-wrap: nowrap;
 }
 
@@ -163,6 +139,6 @@ a:visited{
 hr{
     display: block;
     margin-bottom: 10px;
-    width: 54vw;
+    width: 60vw;
 }
 
