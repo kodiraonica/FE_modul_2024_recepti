@@ -41,7 +41,7 @@ main {
 }
 
 .form-flex {
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +50,6 @@ main {
 }
 
 footer {
-    width: 100%;
     align-self: center;
     text-align: center;
     border-top: 1px solid grey;
@@ -83,7 +82,6 @@ h1 {
 
 .input-auth {
     width: 100%;
-    max-width: 400px;
     height: 2.5em;
     border-style: none;
     padding: 0.9em;
@@ -98,7 +96,6 @@ h1 {
 
 .button-auth {
     width: 100%;
-    max-width: 400px;
     height: 2.5em;
     color: white;
     background-color: var(--main-form-color);

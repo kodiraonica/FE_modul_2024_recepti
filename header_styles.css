@@ -7,7 +7,6 @@
 
 :root {
     --main-bg-color: #F1F2F6;
-    --main-form-color: #FF8600;
     --placeholder-text-color: #5f5d5d;
 }
 
@@ -47,7 +46,6 @@ main {
 }
 
 footer {
-    width: 90%;
     align-self: center;
     text-align: center;
     border-top: 1px solid grey;
@@ -94,6 +92,5 @@ footer {
     padding: 0.9em;
     height: 2.5rem;
     width: 100%;
-    max-width: 475px;
     border-radius: 5px;
 }
