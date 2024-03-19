@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 :root {
     --main-bg-color: #F1F2F6;
     --placeholder-text-color: #5f5d5d;
@@ -14,8 +15,6 @@ body {
     background-color: #F1F2F6;
     
 }
-
-/* LAYOUT ============================================== */
 
 .main-wrapper {
     width: 100%;
@@ -28,9 +27,9 @@ body {
     grid-template-columns: 100%;
 }
 
-main {
+/* main {
     margin: auto;
-}
+} */
 
 .nav-flex {
     display: flex;
@@ -60,10 +59,6 @@ footer {
     margin-top: 20px;
 }
 
-
-/* COSMETIC STYLES ================================ */
-
-
 .homepage_logo {
     font-size: 	1.5rem;
     font-weight: 700;
@@ -90,7 +85,6 @@ footer {
 .search_input {
     border-style: none;
     padding: 0.9em;
-    height: 2.5rem;
     width: 100%;
     border-radius: 5px;
 }
