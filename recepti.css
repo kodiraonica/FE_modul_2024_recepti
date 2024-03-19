@@ -1,0 +1,144 @@
+:root{
+    --bgcolor:#f1f2f6;
+    --white: white;
+    --black: black;
+    --button: #ff8600;
+    --boxshadow:#0000001a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bgcolor);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;       
+}
+
+main{
+    flex-grow: 1;
+}
+
+.wrapping{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.recipes{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 25%)); 
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+.recipe{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--white);
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--boxshadow); 
+}
+
+.headingStyle{
+    width: 300px;
+    height: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: var(--white);
+    font-size: 20px;
+}
+
+.overflow_ellipsis{
+    background-color: var(--white);
+    font-size: 16px;
+    margin-top: 10px;
+    height: 60px;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+}
+
+.recipe img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tags{
+    background-color: var(--white);
+    display: flex;
+    align-items: flex-end;
+}
+
+button{
+    background-color: var(--button);
+    color: var(--white);
+    padding: 5px;
+    margin-right: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.footerWrapping{
+    padding-bottom: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.footStyle{
+    display: flex;
+    font-weight: 500;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--black);
+}
+
+footer{  
+    margin-top: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+a{  
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+a:visited{
+    color: var(--black);
+  }
+
+hr{
+    display: block;
+    margin-bottom: 10px;
+    width: 60vw;
+}
+
